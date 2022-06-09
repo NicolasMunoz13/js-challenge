@@ -12,9 +12,20 @@
 <body>
   <div class="Main">
     <h1>PlatziStore</h1>
-    <div id="app"></div>
+    <div id="app">
+      <table id="table_List"></table>
+    </div>
     <div id="observe"></div>
+    <a href="javascript:prevPage()" id="btn_prev">Prev</a>&nbsp;
+    <a href="javascript:nextPage()" id="btn_next">Next</a><br>
   </div>
+
+  <article class="Card">
+    <img id="image_Card" src="" />
+    <h2 id="product_title">
+      <h4 id="product_price"></h4>
+    </h2>
+  </article>
 </body>
 
 <script type="text/javascript" src="../src/index.js"></script>
